@@ -1,0 +1,25 @@
+@media md {
+    @media (min-width: 768px) {
+        @content
+    }
+}
+@media lg {
+    @media (min-width: 992px) {
+        @content
+    }
+}
+@media xl {
+    @media (min-width: 1200px) {
+        @content
+    }
+}
+@media xxl {
+    @media (min-width: 1400px) {
+        @content
+    }
+}
+@media xxxl {
+    @media (min-width: 1920px) {
+        @content
+    }
+}
