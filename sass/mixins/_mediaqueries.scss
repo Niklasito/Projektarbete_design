@@ -1,24 +1,29 @@
-@media md {
+@media xsd {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+@media sd {
     @media (min-width: 768px) {
         @content
     }
 }
-@media lg {
+@media ms {
     @media (min-width: 992px) {
         @content
     }
 }
-@media xl {
+@media xd {
     @media (min-width: 1200px) {
         @content
     }
 }
-@media xxl {
+@media xxd {
     @media (min-width: 1400px) {
         @content
     }
 }
-@media xxxl {
+@media xxxd {
     @media (min-width: 1920px) {
         @content
     }
