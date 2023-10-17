@@ -136,17 +136,17 @@
   background-color: #111111;
   border: none;
 }
-.sign-up-section .sign-up-container .sign-up-login-link {
+.sign-up-section .sign-up-container .sign-in-login-link {
   text-decoration: none;
   color: #111111;
   font-size: large;
 }
-.sign-up-section .sign-up-container .sign-up-media {
+.sign-up-section .sign-up-container .sign-in-media {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.sign-up-section .sign-up-container .sign-up-media .sign-up-soc-link {
+.sign-up-section .sign-up-container .sign-in-media .sign-in-soc-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,52 +157,52 @@
   border-radius: 5dvh;
   margin: 7dvh 1dvh;
 }
-.sign-up-section .sign-up-container .sign-up-media .sign-up-soc-link .sign-up-facebook-link {
+.sign-up-section .sign-up-container .sign-in-media .sign-in-soc-link .sign-in-facebook-link {
   color: #4267B2;
 }
-.sign-up-section .sign-up-container .sign-up-media .sign-up-soc-link .sign-up-x-link {
+.sign-up-section .sign-up-container .sign-in-media .sign-in-soc-link .sign-in-x-link {
   color: #1DA1F2;
 }
-.sign-up-section .sign-up-container .sign-up-media .sign-up-soc-link .sign-up-google-link {
+.sign-up-section .sign-up-container .sign-in-media .sign-in-soc-link .sign-in-google-link {
   color: #DB4437;
 }
-.sign-up-section .sign-up-container .sign-up-horizontal {
+.sign-up-section .sign-up-container .sign-in-horizontal {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 2dvh;
 }
 @media (max-width: 767px) {
-  .sign-up-section .sign-up-container .sign-up-horizontal {
+  .sign-up-section .sign-up-container .sign-in-horizontal {
     width: 80vw;
   }
 }
 @media (min-width: 768px) {
-  .sign-up-section .sign-up-container .sign-up-horizontal {
+  .sign-up-section .sign-up-container .sign-in-horizontal {
     width: 70vw;
   }
 }
 @media (min-width: 992px) {
-  .sign-up-section .sign-up-container .sign-up-horizontal {
+  .sign-up-section .sign-up-container .sign-in-horizontal {
     width: 60vw;
   }
 }
 @media (min-width: 1200px) {
-  .sign-up-section .sign-up-container .sign-up-horizontal {
+  .sign-up-section .sign-up-container .sign-in-horizontal {
     width: 45vw;
   }
 }
 @media (min-width: 1400px) {
-  .sign-up-section .sign-up-container .sign-up-horizontal {
+  .sign-up-section .sign-up-container .sign-in-horizontal {
     width: 30vw;
   }
 }
 @media (min-width: 1920px) {
-  .sign-up-section .sign-up-container .sign-up-horizontal {
+  .sign-up-section .sign-up-container .sign-in-horizontal {
     width: 20vw;
   }
 }
-.sign-up-section .sign-up-container .sign-up-horizontal .sign-up-horizontal-line {
+.sign-up-section .sign-up-container .sign-in-horizontal .sign-in-horizontal-line {
   height: 1dvh;
   width: 35%;
   border-radius: 0.5dvh;
