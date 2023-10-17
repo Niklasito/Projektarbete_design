@@ -126,11 +126,11 @@
             color: #111111;
             font-size: large;
         }
-        .sign-up-media{
+        .sign-in-media{
             display: flex;
             justify-content: center;
             align-items: center;
-            .sign-up-soc-link{
+            .sign-in-soc-link{
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -140,18 +140,18 @@
                 border-color: #DBE3F5;
                 border-radius: 5dvh;
                 margin: 7dvh 1dvh ;
-                .sign-up-facebook-link{
+                .sign-in-facebook-link{
                     color: #4267B2;
                 }
-                .sign-up-x-link{
+                .sign-in-x-link{
                     color: #1DA1F2;
                 }
-                .sign-up-google-link{
+                .sign-in-google-link{
                     color: #DB4437;
                 }
             }
         }
-        .sign-up-horizontal{
+        .sign-in-horizontal{
             display: flex;
             justify-content: center;
             align-items: center;
@@ -179,7 +179,7 @@
             @include xxxd {
                 width: 20vw;
             }
-            .sign-up-horizontal-line{
+            .sign-in-horizontal-line{
                 height: 1dvh;
                 width: 35%;
                 border-radius: 0.5dvh;
