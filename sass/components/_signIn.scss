@@ -1,10 +1,10 @@
-.sign-up-section{
+.sign-in-section{
     display: flex;
     justify-content: center; 
     align-items: center;
-    .sign-up-container {
+    .sign-in-container {
         
-        .sign-up-upper{
+        .sign-in-upper{
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -12,7 +12,7 @@
             position: relative;
             margin-top: 5dvh;
             
-            .sign-up-home-link {
+            .sign-in-home-link {
                 color: #111111;
                 position: absolute;
                 left: 0;
@@ -24,26 +24,28 @@
             }
 
             }
-            .sign-up-title{
+            .sign-in-title{
                 font: $font-weight-regular;
                 font-size: x-large;
-                color: #111111;
+                color: $color-login;
                 margin-bottom: 7dvh;
             }
-            .sign-up-vertical-line{
-                background-color: #111111;
+            .sign-in-vertical-line{
+                background-color: $color-login;
                 height: 3vh;
                 width: 1px;
             }
-            .sign-up-heading{
+            .sign-in-heading{
                 font: $font-weight-bold;
                 font-size: 6dvh;
             }
+            .sign-in-sub-titel{
+                color: $color-login;
+            }
         
-        
-        .sign-up-form{
+        .sign-in-form{
             margin: 5dvh 0 2dvh 0;
-            .sign-up-form-div{
+            .sign-in-form-div{
                 @include xsd {
                     width: 80vw;
                 }
@@ -70,8 +72,8 @@
                 position: relative;
                 display: grid;
                 grid-template-columns: 1fr;
-                grid-template-rows: auto auto auto auto auto;
-                .sign-up-label{
+                grid-template-rows: auto auto auto;
+                .sign-in-label{
                     grid-column: 1 / 2; 
                     grid-row: auto;
                     padding: 0 1dvh 0;
@@ -83,7 +85,7 @@
                     background-color: white;
                 }
                 
-                .sign-up-input{
+                .sign-in-input{
                     grid-column: 1 / 2; 
                     grid-row: auto;
                     height: 6dvh;
@@ -93,12 +95,12 @@
                     margin: 1dvh 0 1dvh 0; 
 
                 }
-                .sign-up-icon{
+                .sign-in-icon{
                     position: absolute;
                     top: 2.5dvh;
                     right: 3dvh;
                 }
-                .sign-up-icon-button{
+                .sign-in-icon-button{
                     position: absolute;
                     top: 2.5dvh;
                     right: 2.4dvh;
@@ -121,9 +123,30 @@
             }
 
         }
-        .sign-up-login-link{
+        .sign-in-remember-container{
+            position: relative;
+            margin: 3dvh 0;
+            .sign-in-checkbox{
+                .sign-in-input-checkbox{
+                    transform: scale(1.4);
+                }
+                .sign-in-label-checkbox{
+                    color: $color-login;
+                    font-size: large;
+                }
+            }
+            .sign-in-forgot-password{
+                text-decoration: none;
+                color: $color-login;
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-size: large;
+            }
+        }
+        .sign-in-login-link{
             text-decoration: none;
-            color: #111111;
+            color: $color-login;
             font-size: large;
         }
         .sign-in-media{
