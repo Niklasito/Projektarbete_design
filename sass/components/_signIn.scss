@@ -27,11 +27,11 @@
             .sign-in-title{
                 font: $font-weight-regular;
                 font-size: x-large;
-                color: $color-login;
+                color: $color-content;
                 margin-bottom: 7dvh;
             }
             .sign-in-vertical-line{
-                background-color: $color-login;
+                background-color: $color-content;
                 height: 3vh;
                 width: 1px;
             }
@@ -40,7 +40,7 @@
                 font-size: 6dvh;
             }
             .sign-in-sub-titel{
-                color: $color-login;
+                color: $color-content;
             }
         
         .sign-in-form{
@@ -131,13 +131,13 @@
                     transform: scale(1.4);
                 }
                 .sign-in-label-checkbox{
-                    color: $color-login;
+                    color: $color-content;
                     font-size: large;
                 }
             }
             .sign-in-forgot-password{
                 text-decoration: none;
-                color: $color-login;
+                color: $color-content;
                 position: absolute;
                 top: 0;
                 right: 0;
@@ -146,7 +146,7 @@
         }
         .sign-in-login-link{
             text-decoration: none;
-            color: $color-login;
+            color: $color-content;
             font-size: large;
         }
     }

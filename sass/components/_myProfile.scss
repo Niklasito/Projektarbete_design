@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    border-bottom: 1px solid $color-background;
+    border-bottom: 1px solid $color-lightblue;
     padding-bottom: 1vh;
 
     @include xd {
@@ -84,7 +84,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        border-top: 1px solid $color-background;
+        border-top: 1px solid $color-lightblue;
         width: 100vw;
         height: 10vh;
 
