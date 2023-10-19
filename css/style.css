@@ -3,21 +3,6 @@
   color: black;
   background-color: red;
 }
-
-.size {
-  color: red;
-  color: rgb(152, 152, 233);
-  color: rgb(252, 229, 229);
-  color: darkblue;
-  color: black;
-}
-
-.price {
-  color: green;
-  color: rgb(223, 197, 71);
-  color: purple;
-}
-
 .sign-up-section {
   display: flex;
   justify-content: center;
@@ -549,33 +534,29 @@ header .containter {
 }
 
 footer {
-  width: 375px;
-  height: auto;
   position: relative;
-  margin-top: 1380px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer #menu {
-  width: 100%;
-  border-radius: 25px;
-  border-top: 1px solid #dbe3f5;
-  position: absolute;
-}
-footer #menu nav {
-  background-color: white;
-  padding: 10px;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
-footer #menu nav a {
+footer #menu {
+  width: 375px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  padding: 0.7rem;
+  display: flex;
+  border-top: 1px solid #dbe3f5;
+}
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+footer #menu a {
   text-decoration: none;
   color: #626262;
-}
-footer #menu nav a:active {
-  color: black;
 }
 
 .account-created-container {
