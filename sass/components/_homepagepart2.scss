@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,500;0,9..40,800;0,9..40,900;1,9..40,500&family=Inter:wght@300;400;500;700;900&family=Roboto:wght@300;500;700&display=swap');
+.Featured-products{
+
+width: 335px;
+height: 150px;
+    .containter{
+        .title{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            padding-left: 10px;
+            P{
+                font-family: 'DM Sans', sans-serif;
+                font-size: 20px;
+
+            }
+
+            a{
+    color: black;
+    text-decoration: none;
+    
+            }
+        }
+
+        .Products{
+            padding-left: 10px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 65px;
+        
+           width: 160px;
+         height: 246px;
+         
+       
+         @media (min-width:246px) {
+            grid-template-columns: 1fr 1fr;
+            
+        }
+
+article{
+
+    display: grid;
+     grid-template-columns: 1fr;
+grid-template-rows: auto 1fr auto;
+
+
+
+img{
+    
+width: 160px;
+height: 170px;
+background: #dbe3f5
+}
+.sale{
+    position: absolute;
+    margin-right: 130px;
+    background-color: darkgreen;
+    color: #dbe3f5;
+    height: 20px;
+    width: auto;
+
+    p{
+        font-size: 12px;
+    }
+}
+.images-icon{
+    position: absolute;
+   margin-left: 130px;
+  
+}
+
+.article-title{
+    
+width: 100px;
+height: 21px;
+font-family: "Mulish";
+font-size: 14px;
+font-weight: normal;
+line-height: 21px;
+font-style: normal;
+text-align: left;
+color: #626262;
+.rating{
+    color: gold;
+}
+}
+
+
+
+}
+        }
+    }
+}
