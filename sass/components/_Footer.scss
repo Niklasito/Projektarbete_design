@@ -1,29 +1,27 @@
-footer{
-    width: 375px;
-    height: auto;
-    position: relative;
-    margin-top: 1380px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    #menu{ 
-        width: 100%;
-        border-radius: 25px;
-        border-top: 1px solid $color-background;
-        position: absolute;
-        nav{
+footer {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+
+        #menu {
+            width: 375px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
             background-color: $color-white;
-            padding: 10px ;
+            padding: .7rem;
             display: flex;
-            align-items: center;
+            border-top: 1px solid $color-lightblue;
+        }
+        nav{
+            display: flex;
             justify-content: space-between;
-           a{
-                text-decoration: none;
-                color: $color-login;
-            }
-            a:active{
-                color: black;
-            }
-          }
+            width: 100%;
+        }
+        #menu a {
+            text-decoration: none;
+            color: $color-content;
+        }
+
     }
-}
