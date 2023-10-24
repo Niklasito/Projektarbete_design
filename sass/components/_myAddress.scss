@@ -18,7 +18,7 @@
     margin-top: 5vh;
 
     .my-address-row {
-        border-bottom: 1px solid $color-background;
+        border-bottom: 1px solid $color-lightblue;
         display: flex;
         height: 10vh;
         justify-content: center;
@@ -44,7 +44,7 @@
 
             p {
                 font-size: 12px;
-                color: $color-login;
+                color: $color-content;
             }
         }
     }
@@ -71,7 +71,7 @@
             p {
                 font-size: 14px;
                 margin-bottom: 0;
-                color: $color-login;
+                color: $color-content;
             }
         }
     }
