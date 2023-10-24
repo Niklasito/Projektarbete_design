@@ -1,10 +1,10 @@
-.sign-in-section{
+.edit-profile-section{
     display: flex;
     justify-content: center; 
     align-items: center;
-    .sign-in-container {
+    .edit-profile-container {
         
-        .sign-in-upper{
+        .edit-profile-upper{
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -12,7 +12,7 @@
             position: relative;
             margin-top: 5dvh;
             
-            .sign-in-home-link {
+            .edit-profile-home-link {
                 color: #111111;
                 position: absolute;
                 left: 0;
@@ -24,28 +24,51 @@
             }
 
             }
-            .sign-in-title{
+            .edit-profile-title{
                 font: $font-weight-regular;
                 font-size: x-large;
                 color: $color-login;
                 margin-bottom: 7dvh;
             }
-            .sign-in-vertical-line{
+            .edit-profile-vertical-line{
                 background-color: $color-login;
                 height: 3vh;
                 width: 1px;
             }
-            .sign-in-heading{
-                font: $font-weight-bold;
-                font-size: 6dvh;
-            }
-            .sign-in-sub-titel{
-                color: $color-login;
+            .edit-profile-image-container{
+                position: relative;
+                margin: 3dvh 0 0 0;
+                .edit-profile-image-big-circle{
+                    display: flex;
+                    justify-content: center; 
+                    align-items: center;
+                    height: 18dvh;
+                    width: 18dvh;
+                    border-radius: 9dvh;
+                    background-color: #DBE3F5;
+                    .eidt-profile-image{
+                        width: 15dvh;
+                        height: 15dvh;
+                        border-radius: 7.5dvh;
+                    }
+                }
+                .edit-profile-small-circle{
+                    height: 5dvh;
+                    width: 5dvh;
+                    background-color: #DBE3F5;
+                    display: flex;
+                    justify-content: center; 
+                    align-items: center;
+                    border-radius: 2.5dvh;
+                    position: absolute;
+                    right: 0;
+                    bottom: 1dvh;
+                }
             }
         
-        .sign-in-form{
+        .edit-profile-form{
             margin: 5dvh 0 2dvh 0;
-            .sign-in-form-div{
+            .edit-profile-form-div{
                 @include xsd {
                     width: 80vw;
                 }
@@ -73,7 +96,7 @@
                 display: grid;
                 grid-template-columns: 1fr;
                 grid-template-rows: auto auto auto;
-                .sign-in-label{
+                .edit-profile-label{
                     grid-column: 1 / 2; 
                     grid-row: auto;
                     padding: 0 1dvh 0;
@@ -85,7 +108,7 @@
                     background-color: white;
                 }
                 
-                .sign-in-input{
+                .edit-profile-input{
                     grid-column: 1 / 2; 
                     grid-row: auto;
                     height: 6dvh;
@@ -95,12 +118,12 @@
                     margin: 1dvh 0 1dvh 0; 
 
                 }
-                .sign-in-icon{
+                .edit-profile-icon{
                     position: absolute;
                     top: 2.5dvh;
                     right: 3dvh;
                 }
-                .sign-in-icon-button{
+                .edit-profile-icon-button{
                     position: absolute;
                     top: 2.5dvh;
                     right: 2.4dvh;
@@ -123,19 +146,19 @@
             }
 
         }
-        .sign-in-remember-container{
+        .edit-profile-remember-container{
             position: relative;
             margin: 3dvh 0;
-            .sign-in-checkbox{
-                .sign-in-input-checkbox{
+            .edit-profile-checkbox{
+                .edit-profile-input-checkbox{
                     transform: scale(1.4);
                 }
-                .sign-in-label-checkbox{
+                .edit-profile-label-checkbox{
                     color: $color-login;
                     font-size: large;
                 }
             }
-            .sign-in-forgot-password{
+            .edit-profile-forgot-password{
                 text-decoration: none;
                 color: $color-login;
                 position: absolute;
@@ -144,79 +167,10 @@
                 font-size: large;
             }
         }
-        .sign-in-login-link{
+        .edit-profile-login-link{
             text-decoration: none;
             color: $color-login;
             font-size: large;
-        }
-    }
-}
-
-
-.sign-social-media{
-    .sign-media{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .sign-soc-link{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 10dvh;
-            width: 10dvh;
-            border: solid 1px;
-            border-color: #DBE3F5;
-            border-radius: 5dvh;
-            margin: 7dvh 1dvh ;
-            .sign-facebook-link{
-                color: #4267B2;
-            }
-            .sign-x-link{
-                color: #1DA1F2;
-            }
-            .sign-google-link{
-                color: #DB4437;
-            }
-        }
-    }
-    .sign-horizontal-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .sign-horizontal{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 2dvh;
-            @include xsd {
-                width: 80vw;
-            }
-    
-            @include sd {
-                width: 70vw;
-            }
-    
-            @include ms {
-                width: 60vw;
-            }
-    
-            @include xd {
-                width: 45vw;
-            }
-    
-            @include xxd {
-                width: 30vw;
-            }
-    
-            @include xxxd {
-                width: 20vw;
-            }
-            .sign-horizontal-line{
-                height: 1dvh;
-                width: 35%;
-                border-radius: 0.5dvh;
-                background-color: #111111;
-            }
         }
     }
 }
