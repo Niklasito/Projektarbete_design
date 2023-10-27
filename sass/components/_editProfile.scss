@@ -27,11 +27,11 @@
             .edit-profile-title{
                 font: $font-weight-regular;
                 font-size: x-large;
-                color: $color-login;
+                color: $color-content;
                 margin-bottom: 7dvh;
             }
             .edit-profile-vertical-line{
-                background-color: $color-login;
+                background-color: $color-content;
                 height: 3vh;
                 width: 1px;
             }
@@ -45,7 +45,7 @@
                     height: 18dvh;
                     width: 18dvh;
                     border-radius: 9dvh;
-                    background-color: #DBE3F5;
+                    background-color: $color-lightblue;
                     .eidt-profile-image{
                         width: 15dvh;
                         height: 15dvh;
@@ -55,7 +55,7 @@
                 .edit-profile-small-circle{
                     height: 5dvh;
                     width: 5dvh;
-                    background-color: #DBE3F5;
+                    background-color: $color-lightblue;
                     display: flex;
                     justify-content: center; 
                     align-items: center;
@@ -105,7 +105,7 @@
                     top:0.1dvh;
                     left: 2dvh;
                     z-index: 10;
-                    background-color: white;
+                    background-color: $color-white;
                 }
                 
                 .edit-profile-input{
@@ -113,7 +113,7 @@
                     grid-row: auto;
                     height: 6dvh;
                     border-radius: 3dvh;
-                    border-color: #DBE3F5;
+                    border-color: $color-lightblue;
                     padding: 0 3dvh 0 3dvh;
                     margin: 1dvh 0 1dvh 0; 
 
@@ -154,13 +154,13 @@
                     transform: scale(1.4);
                 }
                 .edit-profile-label-checkbox{
-                    color: $color-login;
+                    color: $color-content;
                     font-size: large;
                 }
             }
             .edit-profile-forgot-password{
                 text-decoration: none;
-                color: $color-login;
+                color: $color-content;
                 position: absolute;
                 top: 0;
                 right: 0;
@@ -169,7 +169,7 @@
         }
         .edit-profile-login-link{
             text-decoration: none;
-            color: $color-login;
+            color: $color-content;
             font-size: large;
         }
     }

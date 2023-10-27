@@ -3,7 +3,7 @@
 }
 
 .best-sellers-img {
-    background-color: #DBE3F5;
+    background-color: $color-lightblue;
     width: 100%;
     max-height: 500px;
     object-fit: cover;
@@ -23,9 +23,9 @@
 
 .best-sellers-link {
     text-decoration: none;
-    color: black;
+    color: $color-black;
 }
 
 .best-sellers-stars i {
-    color: #ffd139
+    color: #ffd139;
 }

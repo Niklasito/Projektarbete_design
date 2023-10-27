@@ -12,7 +12,7 @@
         display: flex;
         justify-content: space-between;
         width: 100vw;
-        border-bottom: 1px solid $color-background;
+        border-bottom: 1px solid $color-lightblue;
         padding-bottom: 1vh;
         margin-top: 2vh;
         @include xd {
@@ -177,7 +177,7 @@
             color: white;
             font-size: 22px;
             font-weight: bold;
-            text-shadow: 2px 2px 4px #000000;
+            text-shadow: 2px 2px 4px $color-black;
 
             @include xd {
                 font-size: 45px;
@@ -186,7 +186,7 @@
 
         button {
             color: black;
-            background-color: white;
+            background-color: $color-white;
             border: none;
             border-radius: 25px;
             padding: 12px 25px 12px 25px;
